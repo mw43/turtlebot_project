@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlebot_project" type="simple_avoidance.py" name="simple_avoidance"  output="screen">
+  </node>
+</launch>
