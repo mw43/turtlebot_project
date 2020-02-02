@@ -39,9 +39,9 @@ class Turtlebot:
             # Decide whether to turn or continue straight
             if obstacle:
                 cmd.linear.x = 0
-                cmd.angular.z = 0.7
+                cmd.angular.z = 1.0
             else:
-                cmd.linear.x = 0.5
+                cmd.linear.x = 0.3
                 cmd.angular.z = 0
 
             # Send command to robot
@@ -54,5 +54,3 @@ if __name__ == '__main__':
     rospy.init_node('simple_avoidance')
     turtlebot = Turtlebot()
     rospy.spin()
-
-# Laptop test commit.
