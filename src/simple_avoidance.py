@@ -54,3 +54,5 @@ if __name__ == '__main__':
     rospy.init_node('simple_avoidance')
     turtlebot = Turtlebot()
     rospy.spin()
+
+# Laptop test commit.
