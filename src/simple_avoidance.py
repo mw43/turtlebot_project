@@ -41,7 +41,7 @@ class Turtlebot:
                 cmd.linear.x = 0
                 cmd.angular.z = 1.0
             else:
-                cmd.linear.x = 0.3
+                cmd.linear.x = 0.1
                 cmd.angular.z = 0
 
             # Send command to robot
